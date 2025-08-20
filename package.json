@@ -1,0 +1,28 @@
+{
+  "name": "game_summatrix",
+  "version": "1.0.0",
+  "description": "Summatrix - игра на чистом JS",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USERNAME/game_summatrix.git"
+  },
+  "keywords": [
+    "game",
+    "js",
+    "2048",
+    "portfolio"
+  ],
+  "author": "Paul Maistrenko",
+  "license": "MIT"
+}
