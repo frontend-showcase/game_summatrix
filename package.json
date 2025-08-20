@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html --dist-dir dist --public-url ./",
-    "clean": "rimraf dist .parcel-cache",
+    "clean": "rimraf dist",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
